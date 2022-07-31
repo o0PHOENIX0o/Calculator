@@ -25,23 +25,3 @@ while True:
                 print(a[i],end=' ')
             print('\n','_'*60,end='')
             print('\n\n\t\ttry again')
-
-
-
-
-
-# a = [str(a) for a in input('enter: ').split()]
-# l=len(a)
-
-# sym=[]
-# addr=[]
-# num=[]
-
-# for i in a:
-#     try:
-#         val = int(i)
-#         num.append(i)
-#     except ValueError:
-#         x = a.index(i)
-#         sym.append(i)
-#         addr.append(x)
